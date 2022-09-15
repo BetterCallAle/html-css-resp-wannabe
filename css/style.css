@@ -136,3 +136,41 @@ img {
         padding: 0;
     }
 }
+
+/* MOBILE */
+@media screen and (max-width: 480px) {
+    
+    .row{
+        flex-direction: column;
+    }
+
+    .lessons .col, .steps .col{
+        width: 100%;
+        margin-bottom: 3em;
+    }
+
+    /* Step Section */
+    .steps{
+        margin: 0;
+    }
+
+    /* Why us */
+    .why-us{
+        background-color: #222222;
+        margin: 0;
+        padding-top: 3em;
+    }
+
+    .col-left img{
+        margin-bottom: 5em;
+    }
+
+    .why-us .col-left{
+        width: 100%;
+    }
+
+    .why-us .col-right{
+        width: 100%;
+    }
+
+}
