@@ -172,11 +172,7 @@ img {
         margin-bottom: 5em;
     }
 
-    .why-us .col-left{
-        width: 100%;
-    }
-
-    .why-us .col-right{
+    .why-us .col-left, .why-us .col-right{
         width: 100%;
     }
 
